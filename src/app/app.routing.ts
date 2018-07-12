@@ -1,9 +1,9 @@
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
-// import { LoginComponent } from './login/login.component';
-// import { GridComponent } from './grid/grid.component';
+import { ReviewComponent } from './components/review/review.component';
+import { FeaturesComponent } from './core/components/features/features.component';
 export const appRoutes: Routes = [
-    // { path: '', component: LoginComponent },
-    // { path: 'grid', component: GridComponent }
+    { path: '', component: ReviewComponent },
+    { path: 'features', component: FeaturesComponent}
 ];
 
